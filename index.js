@@ -66,7 +66,7 @@ inquirer
 }
 
 function compileData(data){
-  mdContent += `# ${data.projectTitle.toUppercase()}\n\n`
+  mdContent += `# ${data.projectTitle}\n\n`
   mdContent += `## Description\n\n ${data.description}\n\n`
   mdContent +=`## Table of Contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Credits](#credits)\n- [License](#license)\n- [Questions](#questions)\n`
   mdContent += `## Installation\n\n${data.installation}\n\n`
